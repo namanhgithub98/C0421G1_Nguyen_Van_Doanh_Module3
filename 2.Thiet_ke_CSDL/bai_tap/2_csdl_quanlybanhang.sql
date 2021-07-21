@@ -1,4 +1,4 @@
--- --- QUAN_LY_BAN_HANG--- 
+order_detail-- --- QUAN_LY_BAN_HANG--- 
 create database quan_ly_ban_hang;
 
 use quan_ly_ban_hang;

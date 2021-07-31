@@ -1,0 +1,13 @@
+body {
+    background-color: orange;
+}
+
+h1 {
+    color: green;
+    margin-left: 30px;
+}
+
+p {
+    color: blue;
+    margin-left: 30px;
+}

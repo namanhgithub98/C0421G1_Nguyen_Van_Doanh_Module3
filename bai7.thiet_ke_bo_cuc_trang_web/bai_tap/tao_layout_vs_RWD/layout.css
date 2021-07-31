@@ -1,0 +1,89 @@
+.container > div {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+            'header header header header header header'
+            'menuLeft content content content content menuRight'
+            'footer footer footer footer footer footer';
+}
+
+@media only screen and (max-width: 500px){
+    .container {
+        display: grid;
+        grid-template-areas:
+                'header header header header header header'
+                'content content content content content content'
+                'footer footer footer footer footer footer';
+    }
+}
+
+.item1 {grid-area: header}
+.item2 {grid-area: menuLeft}
+.item3 {grid-area: content}
+.item4 {grid-area: menuRight}
+.item5 {grid-area: footer}
+
+.item1-1 {
+    margin: 10px;
+    float: left;
+    font-size: 20px;
+}
+
+.item1-2 {
+    margin: 10px;
+    float: right;
+    font-size: 20px;
+}
+
+.item1 {
+    background-color: darkslategray;
+    color: white;
+}
+
+.item2 {
+    width: 200px;
+    background-color: lightgrey;
+}
+
+.item2-1 {
+    color: blue;
+    font-size: 20px;
+}
+
+.item3 {
+    background-color: white;
+}
+
+.item4 {
+    width: 200px;
+    background-color: lightgrey;
+}
+
+.item4-1 {
+    text-align: center;
+    width: 50px;
+    font-size: 20px;
+    margin: 20px;
+    border-style: ridge;
+    padding: 40px;
+}
+
+.item5 {
+    font-size: 20px;
+    background-color: gray;
+}
+
+.hover-title:hover {
+    background-color: black;
+}
+
+p {
+    font-size: 20px;
+    border-style: hidden hidden ridge hidden;
+    text-align: justify;
+}
